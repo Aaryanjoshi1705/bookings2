@@ -1,6 +1,6 @@
 let express=require("express")
 let cors=require("cors")
-let{MongoClient}=require("Mongodb")
+let{MongoClient}=require("mongodb")
 let app=express();
 app.use(cors());
 app.use(express.json());
